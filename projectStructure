@@ -1,0 +1,25 @@
+inventario-equipos/
+│
+├── config/
+│   └── db.js
+│
+├── models/
+│   ├── User.js
+│   ├── EquipmentType.js
+│   ├── EquipmentStatus.js
+│   ├── Brand.js
+│   └── Inventory.js
+│
+├── routes/
+│   ├── user.js
+│   ├── equipmentType.js
+│   ├── equipmentStatus.js
+│   ├── brand.js
+│   └── inventory.js
+│
+├── middleware/
+│   └── auth.js
+│
+├── .env
+├── server.js
+└── package.json
